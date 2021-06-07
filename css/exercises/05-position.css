@@ -1,0 +1,26 @@
+:root {
+  --darkviolet: #9400d3;
+  --maroon: #800000;
+  --darkgolden: #8f6805;
+}
+
+.box {
+  padding: 10px;
+  color: var(--white);
+}
+
+.static {
+  background-color: var(--darkviolet);
+}
+
+.relative {
+  background-color: var(--purple);
+}
+
+.absolute {
+  background-color: var(--maroon);
+}
+
+.fixed {
+  background-color: var(--darkgolden);
+}

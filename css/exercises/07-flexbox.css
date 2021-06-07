@@ -1,0 +1,23 @@
+.flex-container {
+  background-color: rgb(190, 190, 231);
+}
+
+/* Flex Container 1 */
+
+/* Flex Container 2 */
+
+/* Flex Container 3 */
+
+/* use height: 400px; on the container */
+
+/* Flex Container 4 */
+
+/* Flex Container 5 */
+
+/* Flex Container 6 */
+
+.flex-container-6 .flex-item {
+  width: 400px;
+}
+
+/* use height: 300px; on the container */

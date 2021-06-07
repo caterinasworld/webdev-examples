@@ -1,0 +1,24 @@
+.header {
+  grid-area: header;
+}
+
+.article {
+  grid-area: article;
+}
+
+.grid-container {
+  display: grid;
+  height: 97vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    'header'
+    'article'
+    'article'
+    'section'
+    'section'
+    'section'
+    'aside'
+    'footer';
+}

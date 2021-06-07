@@ -1,0 +1,84 @@
+/************** Element (or type), Class, and ID Selectors **************/
+
+/* element (or type) selectors  */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* class selector - most commonly used */
+.heading {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: left;
+}
+
+/* id selector */
+#table {
+  font-size: 1.2em;
+}
+
+/************** Combining Selectors **************/
+
+/* assigning the same style to multiple selectors */
+th,
+tr,
+td {
+  border: 1px solid var(--black);
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+/* select all elements of type 'tr' with class 'first' */
+tr.second {
+  color: var(--red);
+}
+
+/************** Descendant, Child, and Sibling Selectors **************/
+
+/* descendant selector */
+.row li {
+  font-weight: 600;
+}
+
+/* child selector */
+.second > .pepper {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+/* child selector */
+/* would not work since <li> is not a direct descendant */
+.row > li {
+  color: var(--blue);
+}
+
+/* general sibling selector */
+.second ~ tr {
+  color: var(--orange);
+}
+
+/* direct sibling selector */
+/* overrides previous rule */
+.fourth + tr {
+  color: var(--green);
+}
+
+/************* Pseudo-classes and Pseudo-Elements *************/
+
+/* pseudo-class selector */
+tr:hover {
+  background-color: rgba(139, 0, 0, 0.1);
+}
+
+/* pseudo-class and pseudo-element selector */
+tr > td:first-of-type::first-letter {
+  font-size: 1.5em;
+}

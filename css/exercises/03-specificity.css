@@ -1,0 +1,25 @@
+/* Specificity Exercise */
+
+nav .list-item > a {
+  color: var(--purple);
+}
+
+#main::first-letter {
+  color: var(--purple);
+}
+
+input[type] {
+  color: var(--purple);
+}
+
+section .main::first-line {
+  color: var(--purple);
+}
+
+nav ul.menu li#first a:not([class='visited']) {
+  color: var(--purple);
+}
+
+div ol li ul li ol li ul li a {
+  color: var(--purple);
+}

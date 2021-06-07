@@ -1,0 +1,13 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  gap: 10px;
+}
+
+.item1 {
+  grid-row: span 2;
+}
+
+.item6 {
+  grid-column: span 2;
+}

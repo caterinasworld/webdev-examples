@@ -1,0 +1,21 @@
+/* CSS custom properties / CSS variables */
+
+:root {
+  --darkmagenta: #8b008b;
+  --magenta: #ff00ff;
+  --royalblue: #4169e1;
+  --teal: #008080;
+  --violet: #9400d3;
+}
+
+/* Use attribute selectors for the first part of the exercise */
+
+li[class] {
+  color: var(--red);
+}
+
+/* Use descendant, child, and sibling selectors for the second part */
+
+section li {
+  color: var(--green);
+}
