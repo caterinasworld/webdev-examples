@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fcfcfc;
+  --black: #040404;
+
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+
+  --teal: #006060;
+  --lightteal: #008080;
+  --purple: #800080;
+  --lavender: #e6e6fa;
+  --navy: #000080;
+  --blue: #1e90ff;
+  --violetred: #c71585;
+  --orange: #ffa500;
+  --red: #dc143c;
+  --green: #006400;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+  color: var(--gray1);
+}
+
+.form {
+  width: 400px;
+}
+
+.flex-item,
+.grid-item {
+  padding: 10px;
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 2.4em;
+  text-align: center;
+}
+
+.flex-item {
+  width: 160px;
+  height: 80px;
+  margin: 10px;
+}
