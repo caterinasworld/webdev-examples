@@ -1,0 +1,55 @@
+:root {
+  --white: white;
+  --purple: #663399;
+  --lavender: #b3b3e6;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+}
+
+div {
+  width: 40vw;
+  height: 50vh;
+  margin: 10px auto;
+  border: 10px dashed var(--lavender);
+  border-radius: 10px;
+
+  /* Options for specifying the padding property */
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; */
+  /* padding: 40px 30px 20px 10px; */
+  /* padding: 20px; */
+  padding: 20px 40px;
+
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+span {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Display: none example  */
+/* Box-sizing: content-box vs border-box */
+.border-box {
+  display: none;
+  box-sizing: border-box;
+}
+
+/* Size units: em vs rem */
+div {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span {
+  font-size: 1.5rem;
+}

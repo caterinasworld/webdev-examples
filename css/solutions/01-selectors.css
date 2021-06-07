@@ -1,0 +1,42 @@
+/* CSS custom properties / CSS variables */
+
+:root {
+  --magenta: #ff00ff;
+  --teal: #008080;
+  --royalblue: #4169e1;
+  --violet: #9400d3;
+  --green: #008000;
+  --magenta: #8b008b;
+}
+
+/* Attribute selectors */
+
+li[class~='dog'] {
+  color: var(--magenta);
+}
+
+li[id^='c'] {
+  color: var(--teal);
+}
+
+li[class*='do'] {
+  color: var(--royalblue);
+}
+
+li[class$='g'] {
+  color: var(--violet);
+}
+
+/* Parent and Sibiling selectors */
+
+section li {
+  color: var(--green);
+}
+
+.first ~ li {
+  color: var(--magenta);
+}
+
+.second + li {
+  color: var(--royalblue);
+}

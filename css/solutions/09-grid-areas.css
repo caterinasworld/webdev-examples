@@ -1,0 +1,83 @@
+.header {
+  grid-area: header;
+}
+
+.article {
+  grid-area: article;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.section {
+  grid-area: section;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.grid-item {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  height: 97vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    'header'
+    'article'
+    'article'
+    'section'
+    'section'
+    'section'
+    'aside'
+    'footer';
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      'header   header'
+      'article  aside'
+      'section  section'
+      'section  section'
+      'footer   footer';
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      'header   header    header'
+      'article  article   aside'
+      'article  article   aside'
+      'section  section   section'
+      'section  section   section'
+      'footer   footer    footer';
+  }
+}
+
+@media (min-width: 993px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      'header   header    header    header'
+      'aside    article   article   article'
+      'aside    article   article   article'
+      'section  section   section   section'
+      'section  section   section   section'
+      'footer   footer    footer    footer';
+  }
+}
