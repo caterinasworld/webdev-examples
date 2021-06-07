@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility - Bad Semantics Example</title>
+  </head>
+  <body>
+    <h2>Using Non-Semantic Elements</h2>
+    <div class="section">
+      <div class="article">
+        <p class="heading-1">Superbear saves the day</p>
+        <p class="date">2015-08-07</p>
+        <p>The city's favorite bear rescues a young cat from a tree.</p>
+        <div class="aside">
+          <p class="heading-2">Related Articles</p>
+          <ul>
+            <li><a href="#">Bear receives key to city</a></li>
+            <li><a href="#">Superbear stands for mayor</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2>Using Semantic Elements</h2>
+    <section>
+      <article>
+        <h1>Superbear saves the day</h1>
+        <time datetime="2015-08-07">7 Aug 2015</time>
+        <p>The city's favorite bear rescues a young cat from a tree.</p>
+        <aside>
+          <h2>Related Articles</h2>
+          <ul>
+            <li><a href="#">Bear receives key to city</a></li>
+            <li><a href="#">Superbear stands for mayor</a></li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+  </body>
+</html>

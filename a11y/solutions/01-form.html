@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Exercise</title>
+    <style>
+      form > * {
+        margin: 1em 0;
+      }
+      fieldset {
+        border: 0;
+        padding: 0;
+        margin-top: 1em;
+      }
+      div > label,
+      legend {
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Form Example</h1>
+      <form action="">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <fieldset>
+          <legend>Favorite Character</legend>
+          <input
+            type="radio"
+            name="character"
+            id="spongebob"
+            value="spongebob"
+          />
+          <label for="spongebob">Spongebob</label><br />
+          <input type="radio" name="character" id="patrick" value="patrick" />
+          <label for="patrick">Patrick</label><br />
+          <input type="radio" name="character" id="sandy" value="sandy" />
+          <label for="sandy">Sandy</label><br />
+        </fieldset>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
