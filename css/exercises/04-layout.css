@@ -9,6 +9,7 @@ body {
 header,
 section,
 aside {
+  box-sizing: content-box;
   padding: 10px;
   border: 4px solid var(--black);
 }
@@ -18,6 +19,7 @@ header {
 }
 
 section {
+  display: inline-block;
   width: 75%;
   height: 300px;
   background-color: var(--orange);
