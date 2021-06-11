@@ -14,13 +14,13 @@
 
 Recreate the snapshot below by using attribute, descendant, child, and sibling selectors.
 
-<img src="../../_assets/css-ex01-selectors.png" height=200 alt="screenshot of an exercise">
+<img src="../../_assets/css-exercises/css-ex01-selectors.png" height=200 alt="screenshot of an exercise">
 
 ## <a id="ex02"></a> Exercise 02 - Pseudo
 
 Recreate the snapshot below using pseudo elements.
 
-<img src="../../_assets/css-ex02-pseudo.png" height=200 alt="screenshot of an exercise">
+<img src="../../_assets/css-exercises/css-ex02-pseudo.png" height=200 alt="screenshot of an exercise">
 
 ## <a id="ex03"></a> Exercise 03 - Specificity
 
@@ -50,48 +50,48 @@ div ol li ul li ol li ul li a {
 
 Update the layout in the starter files to match the screenshots below.
 
-<img src="../../_assets/css-ex04-layout-01.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex04-layout-02.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex04-layout-01.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex04-layout-02.png" height=200 alt="screenshot of a layout">
 
 ## <a id="ex05"></a> Exercise 05 - Position
 
 Update the layout in the starter files to match the screenshots below.
 
-<img src="../../_assets/css-ex05-position-01.png" height=300 alt="screenshot of a layout">
-<img src="../../_assets/css-ex05-position-02.png" height=300 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex05-position-01.png" height=300 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex05-position-02.png" height=300 alt="screenshot of a layout">
 
 ## <a id="ex06"></a> Exercise 06 - Media Queries
 
 Update the layout in the starter files to match the screenshots below.
 
-<img src="../../_assets/css-ex06-media-queries-01.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex06-media-queries-02.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex06-media-queries-03.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex06-media-queries-01.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex06-media-queries-02.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex06-media-queries-03.png" height=200 alt="screenshot of a layout">
 
 ## <a id="ex07"></a> Exercise 07 - Flexbox
 
 Create the following layouts using Flexbox.
 
-<img src="../../_assets/css-ex07-flexbox-01.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex07-flexbox-02.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex07-flexbox-03.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex07-flexbox-04.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex07-flexbox-05.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex07-flexbox-06.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-01.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-02.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-03.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-04.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-05.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex07-flexbox-06.png" height=200 alt="screenshot of a layout">
 
 ## <a id="ex08"></a> Exercise 08 - CSS Grid
 
 Create the following layouts using CSS Grid.
 
-<img src="../../_assets/css-ex08-grid-01.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex08-grid-02.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex08-grid-03.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex08-grid-04.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex08-grid-01.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex08-grid-02.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex08-grid-03.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex08-grid-04.png" height=200 alt="screenshot of a layout">
 
 ## <a id="ex09"></a> Exercise 09 - CSS Grid Areas
 
 Create the following layouts using CSS Grid.
 
-<img src="../../_assets/css-ex09-grid-areas-01.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex09-grid-areas-02.png" height=200 alt="screenshot of a layout">
-<img src="../../_assets/css-ex09-grid-areas-03.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex09-grid-areas-01.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex09-grid-areas-02.png" height=200 alt="screenshot of a layout">
+<img src="../../_assets/css-exercises/css-ex09-grid-areas-03.png" height=200 alt="screenshot of a layout">
