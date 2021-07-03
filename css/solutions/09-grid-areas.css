@@ -1,3 +1,4 @@
+/* set up grid areas */
 .header {
   grid-area: header;
 }
@@ -18,12 +19,7 @@
   grid-area: footer;
 }
 
-.grid-item {
-  background-color: purple;
-  color: white;
-  padding: 10px;
-}
-
+/* set up the default grid container */
 .grid-container {
   display: grid;
   height: 97vh;
@@ -41,42 +37,40 @@
     'footer';
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+/* set up grid container for breakpoints above 576px */
+@media (min-width: 576px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr 1fr;
     grid-template-areas:
       'header   header'
       'article  aside'
-      'section  section'
       'section  section'
       'footer   footer';
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+/* set up grid container for breakpoints above 768px */
+@media (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 1fr 3fr 3fr 1fr;
     grid-template-areas:
       'header   header    header'
       'article  article   aside'
-      'article  article   aside'
-      'section  section   section'
       'section  section   section'
       'footer   footer    footer';
   }
 }
 
-@media (min-width: 993px) {
+/* set up grid container for breakpoints above 992px */
+@media (min-width: 992px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 1fr 3fr 3fr 1fr;
     grid-template-areas:
       'header   header    header    header'
       'aside    article   article   article'
-      'aside    article   article   article'
-      'section  section   section   section'
       'section  section   section   section'
       'footer   footer    footer    footer';
   }
