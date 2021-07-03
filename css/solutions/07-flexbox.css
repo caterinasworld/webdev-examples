@@ -15,7 +15,6 @@
 .flex-container-2 {
   display: flex;
   flex-flow: row-reverse wrap;
-  align-items: flex-end;
 }
 
 /* Flex Container 3 */
@@ -45,12 +44,12 @@
 .flex-container-5 .item1,
 .flex-container-5 .item3,
 .flex-container-5 .item6 {
-  height: 300px;
+  height: 150px;
 }
 
 .flex-container-5 .item2,
 .flex-container-5 .item8 {
-  height: 400px;
+  height: 250px;
 }
 
 /* Flex Container 6 */
