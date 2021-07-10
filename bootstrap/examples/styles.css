@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 600px;
+}
+
+form > * {
+  margin: 1rem;
+}
+
+.row > * {
+  height: 160px;
+  border: 1px solid var(--white);
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 1.4em;
+}
+
+.row > .col-3 {
+  background-color: var(--slateblue);
+}
+
+.box {
+  height: 160px;
+}
