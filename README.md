@@ -14,6 +14,11 @@ This repository contains the code snippets from the slides as well as the starte
 - jQuery
 - Canvas
 
+Each of the topics above will be organized in a folder that contains the following:
+- `examples/` - This folder will include the code snippets from the slides
+- `exercises/` - These are the starter files for exercises you should complete prior to attempting the homework. Instructions and screenshots for the exercises are available in the `_<topic>.md` file.
+- `solutions/` - All the solutions to the exercises above are in this folder. Additionally, there are video walk-throughs of each solution on MediaLab.
+
 ### Setting Up This Repo
 
 1. Fork the repository in GitHub.
