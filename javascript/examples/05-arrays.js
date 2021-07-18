@@ -1,4 +1,49 @@
-let arrayFunctionsExample = () => {
+let arraysExample1 = () => {
+  let arr = [];
+  // new Array();
+
+  arr.push(1.0);
+  arr.push(2.0);
+  // [1, 2]
+
+  arr.length;
+  // 2
+
+  arr[0];
+  // 1
+
+  arr[0] = 3.0;
+  // [3, 2]
+
+  arr[9] = 4.0;
+  // [3, 2, empty × 7, 4]
+
+  arr.length;
+  // 10
+
+  arr[2];
+  // undefined
+
+  arr.indexOf(1.0);
+  // -1
+  arr.indexOf(2.0);
+  // 1
+
+  arr = ['a', 'b', 'c'];
+  // ['a', 'b', 'c']
+
+  arr = ['a', 1.0, {}, ['b', 2.0]];
+  // ['a', 1, {…}, Array(2)]
+
+  console.log('================ forEach() ================');
+  arr.forEach((item) => console.log(item));
+  // a
+  // 1
+  // Object {}
+  // ['b', 2]
+};
+
+let arraysExample2 = () => {
   let houses = [
     'Barantheon',
     'Bolton',
@@ -11,11 +56,10 @@ let arrayFunctionsExample = () => {
   ];
 
   // for loop
-  console.group('for-loop');
+  console.log('================ for() loop ================');
   for (let i = 0; i < houses.length; i++) {
     console.log(houses[i]);
   }
-  console.groupEnd();
 
   // Barantheon
   // Bolton
@@ -26,12 +70,10 @@ let arrayFunctionsExample = () => {
   // Targaryen
   // Tully
 
-  // forEach()
-  console.group('forEach()');
+  console.log('================ forEach() ================');
   houses.forEach((house) => {
     console.log(house);
   });
-  console.groupEnd();
 
   // Barantheon
   // Bolton
@@ -42,11 +84,10 @@ let arrayFunctionsExample = () => {
   // Targaryen
   // Tully
 
-  console.group('forEach() - index & house');
+  console.log('================ forEach() - index & house ================');
   houses.forEach((house, index) => {
     console.log(`${index + 1} - ${house}`);
   });
-  console.groupEnd();
 
   // 1 - Barantheon
   // 2 - Bolton
@@ -57,11 +98,10 @@ let arrayFunctionsExample = () => {
   // 7 - Targaryen
   // 8 - Tully
 
-  console.group('for-of-loop');
+  console.log('================ For ... of() loop ================');
   for (const house of houses) {
     console.log(house);
   }
-  console.groupEnd();
 
   // Barantheon
   // Bolton
@@ -73,4 +113,5 @@ let arrayFunctionsExample = () => {
   // Tully
 };
 
-arrayFunctionsExample();
+arraysExample1();
+arraysExample2();
