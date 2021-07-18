@@ -18,6 +18,11 @@ main.append(document.createElement('br'));
 let button = document.createElement('button');
 button.setAttribute('id', 'example');
 button.textContent = 'Click Me!';
+button.style.border = 0;
+button.style.padding = '5px 10px';
+button.style.backgroundColor = 'darkgreen';
+button.style.color = 'white';
+button.style.borderRadius = '5px';
 main.append(button);
 
 // Adding an event listener to the previously created button

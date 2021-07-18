@@ -12,3 +12,4 @@ const character = {
 const { first, last, house } = character;
 
 console.log(`I am ${first} ${last} of house ${house}.`);
+// I am Daenerys Targaryen of house Targaryen.
