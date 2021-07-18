@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM Exercise</title>
+    <style>
+      input {
+        margin-bottom: 1.5em;
+      }
+      label {
+        display: block;
+      }
+      .output {
+        width: 150px;
+        height: 20px;
+        background-color: lightyellow;
+      }
+    </style>
+    <script defer src="04-dom.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Click Event</h2>
+        <label for="userInput1">Input</label>
+        <input id="userInput1" type="text" />
+        <input type="button" value="Copy Text" id="copy" />
+        <label for="output">Output</label>
+        <div id="output" class="output"></div>
+      </section>
+      <section id="inputEventExample">
+        <h2>Input Event</h2>
+        <label for="userInput2">Input</label>
+        <input id="userInput2" type="text" />
+        <label for="output">Output</label>
+      </section>
+    </main>
+  </body>
+</html>
