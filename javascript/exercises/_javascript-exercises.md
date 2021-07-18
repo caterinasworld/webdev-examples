@@ -56,7 +56,7 @@ Part 1 - When the user clicks the 'copy' button, copy the user input to the outp
 
 Part 2 - When the user enters input text, copy the user input to the output area. Fetch the JavaScript objects representing specific elements in the DOM. Add an event listener on the target element. Write a callback function to handle the 'input' event.
 
-## <a id="ex04"></a> Exercise 05 - Destructuring
+## <a id="ex05"></a> Exercise 05 - Destructuring
 
 Write a function `destructureItems` that takes in a character object, destructures the name and parents of the characters, and returns the output as shown.
 
