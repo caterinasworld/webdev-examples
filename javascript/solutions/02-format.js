@@ -25,7 +25,9 @@ const formatItems = (input) => {
   return results.join(', ');
 };
 
-console.log(formatItems([5.1, 7.4, 3.3, 6.8, 3.0]));
-// expected: '5.100, 7.400, 3.300, 6.800, 3.000'
-console.log(formatItems([23.357649, 26.239465, 2.62962]));
-// expected: '23.358, 26.239, 2.630'
+console.log(formatItems([1, 4, 17, 26, 41]));
+// expected: '1.000, 4.000, 17.000, 26.000, 41.000'
+console.log(formatItems([34.0, 12.0, 13.7, 760.1, 10.5]));
+// expected: '34.000, 12.000, 13.700, 760.100, 10.500'
+console.log(formatItems([235.235778, 1.2346789, 14.7, 97.3, 714.1245678]));
+// expected: '235.236, 1.235, 14.700, 97.300, 714.125'

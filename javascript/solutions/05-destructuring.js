@@ -1,5 +1,5 @@
 const destructureItems = (input) => {
-  // destructure the name and house(s) of the character and format the output as shown
+  // destructure the name and parents of the character and format the output as shown
 
   const { first, last } = input;
   const { mother, father } = input.allegiance.parents;
@@ -11,7 +11,7 @@ const destructureItems = (input) => {
   return result;
 };
 
-const character = {
+const sansa = {
   first: 'Sansa',
   last: 'Stark',
   allegiance: {
@@ -26,7 +26,26 @@ const character = {
   },
 };
 
-console.log(destructureItems(character));
+const daenerys = {
+  first: 'Daenerys',
+  last: 'Targaryen',
+  allegiance: {
+    house: 'Targaryen',
+    parents: {
+      mother: 'Queen Rhaella',
+      father: 'King Aerys II Targaryen',
+    },
+    animals: {
+      dragons: 'Drogon',
+    },
+  },
+};
+
+console.log(destructureItems(sansa));
 // Sansa Stark
 //   daughter of
 //   Catelyn Tully and Eddard Stark
+console.log(destructureItems(daenerys));
+// Daenerys Targaryen
+//   daughter of
+//   Queen Rhaella and King Aerys II Targaryen

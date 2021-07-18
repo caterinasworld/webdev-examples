@@ -1,20 +1,27 @@
 const replaceItems = (input) => {
-  // return input with 'quick' replaced by 'sly' and 'lazy' replaced by 'sharp', regardless of the case of the letters
+  // return a string with 'gold' replaced by 'SHINY' and 'wander' replaced by 'roam', regardless of the case of the letters
 
   // for reference, see the MDN "Regular Expressions" entry:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
-  input = input.replace(/quick/gi, 'sly');
-  input = input.replace(/lazy/gi, 'sharp');
+  // option #1
+  // input = input.replace(/gold/gi, 'SHINY');
+  // input = input.replace(/wander/gi, 'roam');
 
-  // input = input.replace(/quick/gi, 'sly').replace(/lazy/gi, 'sharp');
+  // return input;
 
-  return input;
+  // option #2
+  // input = input.replace(/gold/gi, 'SHINY').replace(/wander/gi, 'roam');
 
-  // return input.replace(/quick/gi, 'sly').replace(/lazy/gi, 'sharp');
+  // return input;
+
+  // option #3
+  return input.replace(/gold/gi, 'SHINY').replace(/wander/gi, 'roam');
 };
 
-console.log(replaceItems('the QUICK brown fox is quick'));
-// expected: 'the sly brown fox is sly'
-console.log(replaceItems('jumps OVER the lazy dog'));
-// expected: 'jumps OVER the sharp dog'
+console.log(replaceItems('All that is gold does not glitter'));
+// expected: 'All that is shiny does not glitter'
+console.log(replaceItems('Wisdom is better than silver or GOLD.'));
+// expected: 'All that is shiny does not glitter'
+console.log(replaceItems('Not all those who Wander are lost'));
+// expected: 'Not all those who roam are lost'
