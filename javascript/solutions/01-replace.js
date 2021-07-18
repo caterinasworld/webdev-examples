@@ -22,6 +22,6 @@ const replaceItems = (input) => {
 console.log(replaceItems('All that is gold does not glitter'));
 // expected: 'All that is shiny does not glitter'
 console.log(replaceItems('Wisdom is better than silver or GOLD.'));
-// expected: 'All that is shiny does not glitter'
+// expected: 'Wisdom is better than silver or SHINY.'
 console.log(replaceItems('Not all those who Wander are lost'));
 // expected: 'Not all those who roam are lost'
