@@ -16,7 +16,7 @@ let promiseExample = () => {
     .catch((error) => console.log(error))
     .finally(() => {
       console.log(
-        'This code will execute whether the promises is fulfilled or rejected.'
+        'This code will execute whether the promise is fulfilled or rejected.'
       );
     });
 };

@@ -5,7 +5,7 @@ if (true) {
 
   arya = 'Arya Stark';
   console.log(arya);
-  // Arya
+  // Arya Stark
 
   let jon;
   jon = 'Jon Snow';
