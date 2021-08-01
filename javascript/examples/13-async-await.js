@@ -1,5 +1,5 @@
-let asyncAwaitExample = async () => {
-  let promise = new Promise((resolve, reject) => {
+const asyncAwaitExample = async () => {
+  const promise = new Promise((resolve, reject) => {
     if (true) {
       resolve('Successful promise.');
     } else {
@@ -8,10 +8,10 @@ let asyncAwaitExample = async () => {
   });
 
   try {
-    let response = await promise;
+    const response = await promise;
     console.log(response);
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 

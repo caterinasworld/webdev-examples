@@ -1,5 +1,5 @@
-let promiseExample = () => {
-  let promise = new Promise((resolve, reject) => {
+const promiseExample = () => {
+  const promise = new Promise((resolve, reject) => {
     if (true) {
       resolve('Successful promise.');
     } else {
@@ -13,7 +13,7 @@ let promiseExample = () => {
       return response;
     })
     .then((data) => console.log(data))
-    .catch((error) => console.log(error))
+    .catch((error) => console.error(error))
     .finally(() => {
       console.log(
         'This code will execute whether the promise is fulfilled or rejected.'
