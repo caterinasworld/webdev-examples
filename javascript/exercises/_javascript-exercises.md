@@ -5,6 +5,8 @@
 - [Exercise 03 - Objects](#ex03)
 - [Exercise 04 - DOM](#ex04)
 - [Exercise 05 - Destructuring](#ex05)
+- [Exercise 06 - Fetch](#ex06)
+- [Exercise 07 - Functional](#ex07)
 
 ## <a id="ex01"></a> Exercise 01 - Replace
 
@@ -69,4 +71,60 @@ console.log(destructureItems(daenerys));
 // Daenerys Targaryen
 //   daughter of
 //   Queen Rhaella and King Aerys II Targaryen
+```
+
+## <a id="ex06"></a> Exercise 06 - Fetch
+
+Fetch all books from the API of Ice and Fire and append them to the DOM. To append a book, create an element that contains title, author, publication year, and number of pages for each entry. Using JavaScript, update the styles to center all the books in the container given.
+
+## <a id="ex07"></a> Exercise 07 - Functional
+
+Write a function `mapNameFamily` that takes in a characters array and returns an array with the name and house of each character.
+
+```javascript
+console.log(mapNameFamily(characters));
+// [
+//   'Arya, of House Stark',
+//   'Sansa, of House Stark',
+//   'Eddard, of House Stark',
+//   'Catelyn, of House Stark',
+//   'Robb, of House Stark',
+//   'Rickon, of House Stark',
+//   'Jaime, of House Lannister',
+//   ...
+// ]
+```
+
+Write a function `filterFamily` that takes in a characters array and a house name in string format, and returns an array with only the characters from House Stark.
+
+```javascript
+console.log(filterFamily(characters, 'Stark'));
+// [
+//   { id: 1, name: 'Arya', house: 'Stark' },
+//   { id: 4, name: 'Sansa', house: 'Stark' },
+//   { id: 16, name: 'Eddard', house: 'Stark' },
+//   { id: 17, name: 'Catelyn', house: 'Stark' },
+//   { id: 20, name: 'Robb', house: 'Stark' },
+//   { id: 28, name: 'Rickon', house: 'Stark' }
+// ]
+
+console.log(filterFamily(characters, 'Greyjoy'));
+// [
+//   { id: 83, name: 'Theon', house: 'Greyjoy' },
+//   { id: 84, name: 'Yara', house: 'Greyjoy' }
+// ]
+```
+
+Write a function `mapNameFamily` that takes in a characters array and returns an object with the number of characters from each house.
+
+```javascript
+console.log(reduceHouses(characters));
+// {
+//   Stark: 6,
+//   Lannister: 5,
+//   Targaryen: 3,
+//   Greyjoy: 2,
+//   Seaworth: 1,
+//   Tarth: 1
+// }
 ```
