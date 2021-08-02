@@ -118,7 +118,7 @@ console.log(filterFamily(characters, 'Greyjoy'));
 // ]
 ```
 
-Write a function `mapNameFamily` that takes in a characters array and returns an object with the number of characters from each house.
+Write a function `reduceHouses` that takes in a characters array and returns an object with the number of characters from each house.
 
 ```javascript
 console.log(reduceHouses(characters));
