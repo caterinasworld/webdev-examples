@@ -77,6 +77,9 @@ console.log(destructureItems(daenerys));
 
 Fetch all books from the API of Ice and Fire and append them to the DOM. To append a book, create an element that contains title, author, publication year, and number of pages for each entry. Using JavaScript, update the styles to center all the books in the container given.
 
+<img src="../../_assets/javascript-exercises/javascript-ex06-fetch-01.png" height=200 alt="screenshot of the starting file with a spinner gif">
+<img src="../../_assets/javascript-exercises/javascript-ex06-fetch-02.png" height=200 alt="screenshot of completed exercise, with a list of all game of thrones books">
+
 ## <a id="ex07"></a> Exercise 07 - Functional
 
 Write a function `mapNameFamily` that takes in a characters array and returns an array with the name and house of each character.
