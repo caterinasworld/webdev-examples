@@ -15,6 +15,7 @@ const addBookToDOM = (item) => {
   element.style.display = 'flex';
   element.style.flexDirection = 'column';
   element.style.alignItems = 'center';
+  element.style.marginTop = '20px';
 
   title.textContent = item.name;
   author.textContent = `by ${item.authors[0]}`;
