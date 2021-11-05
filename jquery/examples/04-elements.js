@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $('body')
     .css({ fontFamily: 'sans-serif' })
-    .append($('<h1>').text('Creating Elements'))
+    .append($('<h1>').text('jQuery 04 - Elements'))
     .append(
       $('<main>')
         .css({

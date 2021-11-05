@@ -3,9 +3,9 @@
 
 // Option #1
 // Fetch JavaScript objects representing specific elements in the DOM
-let userInput = document.querySelector('#userInput1');
+let userInput1 = document.querySelector('#userInput1');
 let copy = document.querySelector('#copy');
-let output = document.querySelector('#output');
+let output1 = document.querySelector('#output1');
 
 // Add an event listener on the target element
 copy.addEventListener('click', handleClick);
@@ -13,7 +13,7 @@ copy.addEventListener('click', handleClick);
 // Callback function to handle event
 function handleClick(event) {
   console.log('click event', event);
-  output.textContent = userInput.value;
+  output1.textContent = userInput1.value;
 }
 
 // Option #2
@@ -36,16 +36,13 @@ function handleClick(event) {
 
 // Fetch JavaScript objects representing specific elements in the DOM
 let userInput2 = document.querySelector('#userInput2');
+let output2 = document.querySelector('#output2');
 
 // Add an event listener on the target element
 userInput2.addEventListener('input', handleInput);
 
-let element = document.createElement('div');
-element.setAttribute('class', 'output');
-document.querySelector('#inputEventExample').append(element);
-
 // Callback function to handle event
 function handleInput(event) {
   console.log('click event', event);
-  element.textContent = userInput2.value;
+  output2.textContent = userInput2.value;
 }
