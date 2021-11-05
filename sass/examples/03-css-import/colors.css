@@ -1,0 +1,11 @@
+/* 
+import this CSS file into the style.css
+@import 'colors.css'; 
+*/
+
+:root {
+  --main-color: purple;
+  --main-color-50: rgb(61, 8, 61);
+  --bg-color: magenta;
+  --bg-color-50: rgb(197, 128, 197);
+}

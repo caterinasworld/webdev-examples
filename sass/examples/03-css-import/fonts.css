@@ -1,0 +1,10 @@
+/* 
+import this CSS file into the style.css
+@import 'fonts.css'; 
+*/
+
+:root {
+  --font-family: Helvetica, sans-serif;
+  --font-size: 1em;
+  --padding: 0.8em;
+}

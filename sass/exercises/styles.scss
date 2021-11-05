@@ -1,0 +1,19 @@
+@import '_colors';
+
+$font-family: Helvetica, sans-serif;
+$font-size: 14px;
+$padding: 10px;
+
+body {
+  font-family: $font-family;
+}
+
+header {
+  background-color: $background-color;
+  padding: $padding;
+
+  h1 {
+    font-size: $font-size * 1.5;
+    color: $main-color;
+  }
+}
