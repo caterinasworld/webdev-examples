@@ -12,6 +12,7 @@ This repository contains the code snippets from the slides as well as the starte
 - JavaScript
 - jQuery
 - Node
+- Sass
 
 Each of the topics above will be organized in a folder that contains the following:
 - `examples/` - This folder will include the code snippets from the slides
