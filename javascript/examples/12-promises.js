@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript Promises ==========\n');
+
 const promiseExample = () => {
   const promise = new Promise((resolve, reject) => {
     if (true) {

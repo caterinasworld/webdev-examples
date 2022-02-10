@@ -1,4 +1,6 @@
-let arraysExample1 = () => {
+console.log('\n========== JavaScript Arrays ==========\n');
+
+const arraysExample1 = () => {
   let arr = [];
   // new Array();
 
@@ -35,7 +37,7 @@ let arraysExample1 = () => {
   arr = ['a', 1.0, {}, ['b', 2.0]];
   // ['a', 1, {…}, Array(2)]
 
-  console.log('================ forEach() ================');
+  console.log('========== forEach() ==========');
   arr.forEach((item) => console.log(item));
   // a
   // 1
@@ -56,7 +58,7 @@ let arraysExample2 = () => {
   ];
 
   // for loop
-  console.log('================ for() loop ================');
+  console.log('\n========== for() loop ==========');
   for (let i = 0; i < houses.length; i++) {
     console.log(houses[i]);
   }
@@ -70,7 +72,7 @@ let arraysExample2 = () => {
   // Targaryen
   // Tully
 
-  console.log('================ forEach() ================');
+  console.log('\n========== forEach() ==========');
   houses.forEach((house) => {
     console.log(house);
   });
@@ -84,7 +86,7 @@ let arraysExample2 = () => {
   // Targaryen
   // Tully
 
-  console.log('================ forEach() - index & house ================');
+  console.log('\n========== forEach() - index & house ==========');
   houses.forEach((house, index) => {
     console.log(`${index + 1} - ${house}`);
   });
@@ -98,7 +100,7 @@ let arraysExample2 = () => {
   // 7 - Targaryen
   // 8 - Tully
 
-  console.log('================ For ... of() loop ================');
+  console.log('\n========== For ... of() loop ==========');
   for (const house of houses) {
     console.log(house);
   }

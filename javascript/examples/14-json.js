@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript JSON ==========\n');
+
 const obj = {
   name: 'Spongebob Squarepants',
   height: '4',

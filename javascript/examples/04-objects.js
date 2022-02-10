@@ -1,4 +1,6 @@
-let objectsExample1 = () => {
+console.log('\n========== JavaScript Objects ==========\n');
+
+const objectsExample1 = () => {
   let obj = {
     a: 'hello',
     b: 1.0,
@@ -46,18 +48,18 @@ let objectsExample2 = () => {
     Stark: 'Winter is Coming',
   };
 
-  console.log('================ Original object ================');
+  console.log('========== Original object ==========');
   console.log(houses);
 
   const keys = Object.keys(houses);
 
-  console.log('================ Keys ================');
+  console.log('\n========== Keys ==========');
   console.log(keys);
   // [ "Barantheon", "Greyjoy", "Martell", "Stark" ]
 
   const values = Object.values(houses);
 
-  console.log('================ Values ================');
+  console.log('\n========== Values ==========');
   console.log(values);
   // [
   //   'Ours is the Fury',
@@ -68,14 +70,14 @@ let objectsExample2 = () => {
 
   const entries = Object.entries(houses);
 
-  console.log('================ Entries ================');
+  console.log('\n========== Entries ==========');
   console.log(entries);
   // [ "Barantheon", "Ours is the Fury" ]​
   // [ "Greyjoy", "We Do Not Sow" ]
   // [ "Martell", "Unbowed, Unbent, Unbroken" ]
   // [ "Stark", "Winter is Coming" ]
 
-  console.log('================ For ... of loop ================');
+  console.log('\n========== For ... of loop ==========');
   for (const [house, words] of entries) {
     console.log(`House ${house}'s motto: ${words}`);
   }

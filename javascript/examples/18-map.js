@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript map() ==========\n');
+
 const numbers = [1, 2, 3, 4, 5, 6];
 
 // Return an array with the double of each item in the numbers array

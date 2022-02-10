@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript Types ==========\n');
+
 console.log(typeof 42);
 // number
 

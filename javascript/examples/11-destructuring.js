@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript Destructuring ==========\n');
+
 const character = {
   first: 'Daenerys',
   last: 'Targaryen',
@@ -8,8 +10,13 @@ const character = {
   },
 };
 
-// Destructuring the full name
-const { first, last, house } = character;
+// Destructuring the first name and house
+const { first, house } = character;
 
-console.log(`I am ${first} ${last} of house ${house}.`);
-// I am Daenerys Targaryen of house Targaryen.
+// Destructuring the parents
+const { mother, father } = character.parents;
+
+console.log(
+  `I am ${first} of house ${house}, daughter of ${mother} and ${father}.`
+);
+// I am Daenerys of house Targaryen, daughter of Queen Rhaella and King Aerys II.

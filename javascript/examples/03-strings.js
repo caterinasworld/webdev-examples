@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript Strings ==========\n');
+
 // Defining Strings
 
 const quote1 = 'All that is gold does not glitter';
@@ -17,13 +19,13 @@ The crownless again shall be king.`;
 
 const author = new String('-- J.R.R. Tolkien, The Fellowship of the Ring');
 
-console.log(quote1);
+console.log(quote1, '\n');
 // All that is gold does not glitter
 
-console.log(quote2);
+console.log(quote2, '\n');
 // Not all those who wander are lost
 
-console.log(quote3);
+console.log(quote3, '\n');
 // All that is gold does not glitter,
 // Not all those who wander are lost;
 // The old that is strong does not wither,
@@ -34,7 +36,7 @@ console.log(quote3);
 // Renewed shall be blade that was broken,
 // The crownless again shall be king.
 
-console.log(author);
+console.log(author, '\n');
 // [String: '-- J.R.R. Tolkien, The Fellowship of the Ring']
 
 // String Methods

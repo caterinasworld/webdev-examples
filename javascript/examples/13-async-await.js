@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript async/await ==========\n');
+
 const asyncAwaitExample = async () => {
   const promise = new Promise((resolve, reject) => {
     if (true) {
@@ -12,6 +14,10 @@ const asyncAwaitExample = async () => {
     console.log(response);
   } catch (error) {
     console.error(error);
+  } finally {
+    console.log(
+      'This code will execute whether the promise is fulfilled or rejected.'
+    );
   }
 };
 

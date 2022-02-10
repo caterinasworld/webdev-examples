@@ -1,6 +1,3 @@
-// writing directly to the DOM
-document.write('Writing to the DOM...');
-
 // Appending elements to the DOM
 let main = document.querySelector('main');
 

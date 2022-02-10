@@ -1,3 +1,5 @@
+console.log('\n========== JavaScript reduce() ==========\n');
+
 // Initial array
 const array = [1, 2, 3, 4, 5, 6];
 
