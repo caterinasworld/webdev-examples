@@ -20,7 +20,10 @@ const fetchOnePromiseExample = (url) => {
       console.log(data.numberOfPages);
       console.groupEnd();
     })
-    .catch((error) => console.error(error));
+    .catch((error) => console.error(error))
+    .finally(() =>
+      console.log('Fetch One Book - Promise Implementation - finally block')
+    );
 };
 
 // Fetch ALl Books - Promise Implementation
@@ -38,7 +41,10 @@ const fetchAllPromiseExample = (url) => {
       });
       console.groupEnd();
     })
-    .catch((error) => console.error(error));
+    .catch((error) => console.error(error))
+    .finally(() =>
+      console.log('Fetch All Books - Promise Implementation - finally block')
+    );
 };
 
 // Fetch One Book - Async/Await Implementation
@@ -53,6 +59,8 @@ const fetchOneAsyncAwaitExample = async (url) => {
     console.groupEnd();
   } catch (error) {
     console.error('Request failed', error);
+  } finally {
+    console.log('Fetch One Book - Async/Await Implementation - finally block');
   }
 };
 
@@ -72,6 +80,8 @@ const fetchAllAsyncAwaitExample = async (url) => {
     console.groupEnd();
   } catch (error) {
     console.error('Request failed', error);
+  } finally {
+    console.log('Fetch All Books - Async/Await Implementation - finally block');
   }
 };
 
@@ -87,6 +97,10 @@ const fetchAsyncAwaitPromiseAllExample = async (urls) => {
     console.groupEnd();
   } catch (error) {
     console.error('Request failed', error);
+  } finally {
+    console.log(
+      'Fetch Five Books - Async/Await with Promise.all() Implementation - finally block'
+    );
   }
 };
 
