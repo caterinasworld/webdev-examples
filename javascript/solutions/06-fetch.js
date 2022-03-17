@@ -40,9 +40,9 @@ const fetchData = (url) => {
     })
     .catch((error) => {
       console.log(error);
-      let li = document.createElement('li');
-      li.textContent = `An error occured. Please try again.`;
-      app.append(li);
+      let div = document.createElement('div');
+      div.textContent = `An error occurred. Please try again.`;
+      app.append(div);
     })
     .finally(() => {
       app.removeChild(loading);
