@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility - Images Example</title>
+  </head>
+  <body>
+    <main>
+      <h1>Alternative Text for Images</h1>
+      <figure>
+        <img src="http://placekitten.com/200/100" />
+        <placeholder>No alt attribute</placeholder>
+      </figure>
+      <figure>
+        <img src="http://placekitten.com/200/100" alt="image.png" />
+        <placeholder>Attribute does not describe the image.</placeholder>
+      </figure>
+      <figure>
+        <img
+          src="http://placekitten.com/200/100"
+          alt="image of four adorable kittens in a basket"
+        />
+        <placeholder
+          >Image has an alt attribute that describes the image.</placeholder
+        >
+      </figure>
+      <figure>
+        <img
+          src="http://placekitten.com/200/100"
+          alt="image of four adorable kittens in a basket"
+          width="200"
+          height="100"
+        />
+        <placeholder
+          >Even better! This image has an alt attribute that describes the
+          image, as well as width and height attributes.</placeholder
+        >
+      </figure>
+    </main>
+  </body>
+</html>
