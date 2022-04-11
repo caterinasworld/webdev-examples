@@ -30,7 +30,9 @@ $(document).ready(() => {
       },
       error: (error) => {
         console.log(error);
-        $('#books').append('<div').text(`An error occured. Please try again.`);
+        $('#books')
+          .append('<div>')
+          .text(`An error occurred. Please try again.`);
       },
       complete: () => {
         $('#loading').remove();
