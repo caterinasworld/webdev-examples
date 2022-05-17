@@ -1,6 +1,6 @@
 const http = require('http');
 const data = require('./characters');
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 const server = http.createServer((req, res) => {
   // console.log(characters);
