@@ -34,6 +34,8 @@ const fetchData = (url) => {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
+      // check the format of the data
+      // if data is in array format, we can use an array method such as forEach()
       data.forEach((item) => {
         addBookToDOM(item);
       });
