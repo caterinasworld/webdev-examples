@@ -31,12 +31,12 @@
     font-size: 1em;
   }
 
-  button:hover {
+  .button:hover {
     background: linear-gradient(to right, var(--plum), var(--coral));
     color: var(--black);
   }
 
-  h1 {
+  .h1 {
     color: var(--lavender);
   }
 }
@@ -46,7 +46,7 @@
     background: var(--orange);
   }
 
-  button:hover {
+  .button:hover {
     background: linear-gradient(to right, var(--darkgolden), var(--chocolate));
     color: var(--black);
   }
@@ -58,7 +58,7 @@
     color: var(--white);
   }
 
-  button:hover {
+  .button:hover {
     background: linear-gradient(to right, var(--lightblue), var(--lightgreen));
     color: var(--black);
   }

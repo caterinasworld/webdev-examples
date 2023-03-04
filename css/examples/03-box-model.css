@@ -9,7 +9,8 @@ body {
   font-size: 1.2em;
 }
 
-div {
+.content-box,
+.border-box {
   width: 40vw;
   height: 50vh;
   margin: 10px auto;
@@ -29,7 +30,7 @@ div {
   color: var(--white);
 }
 
-span {
+.span {
   width: 300px;
   margin: 0 auto;
 }
@@ -37,19 +38,19 @@ span {
 /* Display: none example  */
 /* Box-sizing: content-box vs border-box */
 .border-box {
-  display: none;
+  /* display: none; */
   box-sizing: border-box;
 }
 
 /* Size units: em vs rem */
-div {
+.content-box {
   font-size: 1.5rem;
 }
 
-p {
+.paragraph {
   font-size: 1.5rem;
 }
 
-span {
+.span {
   font-size: 1.5rem;
 }

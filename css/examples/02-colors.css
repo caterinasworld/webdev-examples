@@ -7,7 +7,7 @@ body {
   font-size: 1em;
 }
 
-section {
+.color-block {
   display: flex;
   flex-flow: row wrap;
 }
@@ -22,7 +22,7 @@ section {
   background-color: var(--black);
 }
 
-p {
+.color-entry {
   margin: 0;
   margin-top: 0.4em;
   font-size: 1.4em;
