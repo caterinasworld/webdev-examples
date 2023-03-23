@@ -12,7 +12,6 @@ This repository contains the code snippets from the slides as well as the starte
 - JavaScript
 - jQuery
 - Node
-- Sass
 
 Each of the topics above will be organized in a folder that contains the following:
 - `examples/` - This folder will include the code snippets from the slides
@@ -26,33 +25,33 @@ Each of the topics above will be organized in a folder that contains the followi
 2. Clone the forked repository.
 
 ```console
-$ git clone https://github.com/student/webdev-examples class-exercises
+$ git clone https://github.com/student/webdev-examples webdev-examples
 ```
 
-2. Navigate into the newly created `class-exercises` folder and add another remote
+2. Navigate into the newly created `webdev-examples` folder and add another remote
 
 ```console
 $ git remote -v
 origin	  https://github.com/student/webdev-examples.git (fetch)
 origin	  https://github.com/student/webdev-examples.git  (push)
 
-$ git remote add upstream https://github.com/caterinasworld/webdev-examples.git
+$ git remote add examples https://github.com/caterinasworld/webdev-examples.git
 
 $ git remote -v
 origin	  https://github.com/student/webdev-examples.git (fetch)
 origin	  https://github.com/student/webdev-examples.git  (push)
-upstream	hhttps://github.com/caterinasworld/webdev-examples.git (fetch)
-upstream	https://github.com/caterinasworld/webdev-examples.git (push)
+examples	hhttps://github.com/caterinasworld/webdev-examples.git (fetch)
+examples	https://github.com/caterinasworld/webdev-examples.git (push)
 ```
 
-3. Push any files you update to the origin remote.
+3. If you want to update any files in your remote, push those files to the origin remote. 
 
 ```console
 $ git push -u origin main
 ```
 
-4. Pull any new files from the upstream remote.
+4. If there are any new examples to download, pull those files from the 'examples' remote. 
 
 ```console
-$ git pull upstream main
+$ git pull examples main
 ```
